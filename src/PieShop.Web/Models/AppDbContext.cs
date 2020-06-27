@@ -17,5 +17,13 @@ namespace PieShop.Web.Models
 
         public DbSet<Pie> Pies { get; set; }
         public DbSet<Feedback> Feedbacks { get; set; }
+        
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=LAPTOP-KESHAV\\SQLEXPRESS;Database=PieShop;Trusted_Connection=True;");
+            }
+        }
     }
 }
