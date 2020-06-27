@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using PieShop.Web.Models;
+﻿using System.Linq;
 using PieShop.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using PieShop.Web.Core;
 
 namespace PieShop.Web.Controllers
 {

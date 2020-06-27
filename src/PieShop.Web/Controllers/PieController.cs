@@ -1,6 +1,6 @@
-﻿using PieShop.Web.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Linq;
+using PieShop.Web.Core;
 
 namespace PieShop.Web.Controllers
 {

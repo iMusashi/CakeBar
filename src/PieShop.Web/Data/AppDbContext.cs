@@ -1,12 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using PieShop.Web.Models;
 
-namespace PieShop.Web.Models
+namespace PieShop.Web.Data
 {
     public class AppDbContext : IdentityDbContext<IdentityUser>
     {
@@ -22,7 +19,7 @@ namespace PieShop.Web.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=LAPTOP-KESHAV\\SQLEXPRESS;Database=PieShop;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("//Enter your connectionstring here, if appsettings is not configured");
             }
         }
     }

@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using PieShop.Web.Core;
+using PieShop.Web.Models;
+using System.Collections.Generic;
 using System.Linq;
 
-namespace PieShop.Web.Models
+namespace PieShop.Web.Impl
 {
     public class MockPieRepository : IPieRepository
     {

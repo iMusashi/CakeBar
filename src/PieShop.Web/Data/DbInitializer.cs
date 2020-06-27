@@ -1,6 +1,7 @@
-﻿using System.Linq;
+﻿using PieShop.Web.Models;
+using System.Linq;
 
-namespace PieShop.Web.Models
+namespace PieShop.Web.Data
 {
     public class DbInitializer
     {
