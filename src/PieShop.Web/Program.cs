@@ -1,7 +1,7 @@
-﻿using PieShop.Web.Models;
-using Microsoft.AspNetCore;
+﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using PieShop.Web.Data;
 using System;
 
 namespace PieShop.Web

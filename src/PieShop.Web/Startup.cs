@@ -1,10 +1,12 @@
-﻿using PieShop.Web.Models;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using PieShop.Web.Core;
+using PieShop.Web.Data;
+using PieShop.Web.Impl;
 
 namespace PieShop.Web
 {
@@ -26,17 +28,12 @@ namespace PieShop.Web
 
             app.UseAuthentication();
 
-            //app.UseMvcWithDefaultRoute();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}"
                     );
-                //routes.MapRoute(
-                //    name: "default",
-                //    template: "{Controller=Home}/{Action=Home}/{id?}"
-                //    );
             });
         }
 

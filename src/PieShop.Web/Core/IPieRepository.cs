@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using PieShop.Web.Models;
+using System.Collections.Generic;
 
-namespace PieShop.Web.Models
+namespace PieShop.Web.Core
 {
     public interface IPieRepository
     {

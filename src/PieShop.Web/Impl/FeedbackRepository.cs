@@ -1,4 +1,8 @@
-﻿namespace PieShop.Web.Models
+﻿using PieShop.Web.Core;
+using PieShop.Web.Data;
+using PieShop.Web.Models;
+
+namespace PieShop.Web.Impl
 {
     public class FeedbackRepository: IFeedbackRepository
     {
