@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace PieShop.Web.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20180601040625_AddIsInStockPropertyToPie")]
-    partial class AddIsInStockPropertyToPie
+    [Migration("20180602045132_FeedbackAdded")]
+    partial class FeedbackAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,7 +20,25 @@ namespace PieShop.Web.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("CakeBar.Web.Models.Pie", b =>
+            modelBuilder.Entity("PieShop.Web.Models.Feedback", b =>
+                {
+                    b.Property<string>("FeedbackId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<bool>("ContactMe");
+
+                    b.Property<string>("Email");
+
+                    b.Property<string>("Message");
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("FeedbackId");
+
+                    b.ToTable("Feedbacks");
+                });
+
+            modelBuilder.Entity("PieShop.Web.Models.Pie", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

@@ -21,7 +21,7 @@ namespace PieShop.Web.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("CakeBar.Web.Models.Feedback", b =>
+            modelBuilder.Entity("PieShop.Web.Models.Feedback", b =>
                 {
                     b.Property<string>("FeedbackId")
                         .ValueGeneratedOnAdd();
@@ -45,7 +45,7 @@ namespace PieShop.Web.Migrations
                     b.ToTable("Feedbacks");
                 });
 
-            modelBuilder.Entity("CakeBar.Web.Models.Pie", b =>
+            modelBuilder.Entity("PieShop.Web.Models.Pie", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
