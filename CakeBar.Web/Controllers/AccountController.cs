@@ -1,9 +1,9 @@
-﻿using CakeBar.Web.ViewModels;
+﻿using PieShop.Web.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace CakeBar.Web.Controllers
+namespace PieShop.Web.Controllers
 {
     public class AccountController : Controller
     {

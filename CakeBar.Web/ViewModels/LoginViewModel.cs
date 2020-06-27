@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CakeBar.Web.ViewModels
+namespace PieShop.Web.ViewModels
 {
     public class LoginViewModel
     {

@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace CakeBar.Web.Models
+namespace PieShop.Web.Models
 {
     public class DbInitializer
     {

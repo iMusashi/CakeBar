@@ -1,8 +1,8 @@
-﻿using CakeBar.Web.Models;
+﻿using PieShop.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 
-namespace CakeBar.Web.Controllers
+namespace PieShop.Web.Controllers
 {
     public class PieController : Controller
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace CakeBar.Web.Models
+namespace PieShop.Web.Models
 {
     public class MockPieRepository : IPieRepository
     {

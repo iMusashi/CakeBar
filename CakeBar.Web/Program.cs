@@ -1,10 +1,10 @@
-﻿using CakeBar.Web.Models;
+﻿using PieShop.Web.Models;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace CakeBar.Web
+namespace PieShop.Web
 {
     public class Program
     {

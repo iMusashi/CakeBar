@@ -1,8 +1,8 @@
-﻿using CakeBar.Web.Models;
+﻿using PieShop.Web.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CakeBar.Web.Controllers
+namespace PieShop.Web.Controllers
 {
     [Authorize]
     public class FeedbackController : Controller

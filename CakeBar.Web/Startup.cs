@@ -1,4 +1,4 @@
-﻿using CakeBar.Web.Models;
+﻿using PieShop.Web.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CakeBar.Web
+namespace PieShop.Web
 {
     public class Startup
     {

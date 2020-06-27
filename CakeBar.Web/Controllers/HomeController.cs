@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CakeBar.Web.Models;
-using CakeBar.Web.ViewModels;
+using PieShop.Web.Models;
+using PieShop.Web.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CakeBar.Web.Controllers
+namespace PieShop.Web.Controllers
 {
     public class HomeController : Controller
     {

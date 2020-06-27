@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace CakeBar.Web.Migrations
+namespace PieShop.Web.Migrations
 {
     public partial class IdentityAdded : Migration
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System.ComponentModel.DataAnnotations;
 
-namespace CakeBar.Web.Models
+namespace PieShop.Web.Models
 {
     public class Feedback
     {

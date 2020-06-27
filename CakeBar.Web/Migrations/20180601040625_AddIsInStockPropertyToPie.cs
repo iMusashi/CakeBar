@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace CakeBar.Web.Migrations
+namespace PieShop.Web.Migrations
 {
     public partial class AddIsInStockPropertyToPie : Migration
     {

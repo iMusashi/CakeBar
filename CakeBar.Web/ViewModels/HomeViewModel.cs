@@ -1,10 +1,10 @@
-﻿using CakeBar.Web.Models;
+﻿using PieShop.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CakeBar.Web.ViewModels
+namespace PieShop.Web.ViewModels
 {
     public class HomeViewModel
     {

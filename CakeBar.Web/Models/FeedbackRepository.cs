@@ -1,4 +1,4 @@
-﻿namespace CakeBar.Web.Models
+﻿namespace PieShop.Web.Models
 {
     public class FeedbackRepository: IFeedbackRepository
     {

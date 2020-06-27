@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CakeBar.Web.Models
+namespace PieShop.Web.Models
 {
     public interface IPieRepository
     {
