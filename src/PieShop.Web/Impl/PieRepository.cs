@@ -1,9 +1,10 @@
-﻿using System;
+﻿using PieShop.Web.Core;
+using PieShop.Web.Data;
+using PieShop.Web.Models;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
-namespace PieShop.Web.Models
+namespace PieShop.Web.Impl
 {
     public class PieRepository : IPieRepository
     {

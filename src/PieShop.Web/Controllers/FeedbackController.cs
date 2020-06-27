@@ -1,6 +1,7 @@
 ﻿using PieShop.Web.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using PieShop.Web.Core;
 
 namespace PieShop.Web.Controllers
 {
